@@ -45,3 +45,24 @@ SCHEME:https
 USER:
 ZONEID:
 ```
+
+# Help text
+
+```
+How to fwuck:
+
+  fwuck [OPTIONS] [URL]...
+
+  Action flags:
+
+    Only one of these may be passed at a time
+
+    -t,--take-apart   - Take apart a URL into its component parts
+    -p,--put-together - Assemble a URL from comonent parts
+    -r,--replace      - Replace a part of a URL
+
+  Utility Flags:
+
+    -h,--help         - Print this text
+    -n,--no-label     - Disable printing of labels like 'PORT:' when disassembling a URL
+```
