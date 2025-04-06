@@ -32,3 +32,16 @@ $ ./fwuck "https://example.com/" -t | sed 's/^HOST:.*$/HOST:google.com/' | ./fwu
 https://google.com
 ```
 
+## Example output
+```console
+$ ./fwuck "https://example.com/" -t
+FRAGMENT:
+HOST:example.com
+PASSWORD:
+PATH:/
+PORT:
+QUERY:
+SCHEME:https
+USER:
+ZONEID:
+```
