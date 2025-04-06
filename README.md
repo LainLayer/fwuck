@@ -5,7 +5,7 @@ Small curl wrapper meant for handling URLs in shell scripts. Work in progress.
 # Compile
 
 ```bash
-cc -o fwuck fwuck.c
+cc -o fwuck fwuck.c -lcurl
 ```
 
 # Usage examples
